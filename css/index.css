@@ -1,4 +1,4 @@
-
+/* Css For Banner Image. */
 .banner-image{
     position: relative;
 }
@@ -16,4 +16,35 @@
     /* border: 1px red; */
     background: rgba(254,254,255,0.75);
     padding: 0.5em 1.5em;
+}
+
+
+/* Css for The Playing Now Section  */
+.flex-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.heading{
+    width:50%;
+    text-align: center;
+}
+.live-card-container{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    margin: auto 2em;
+    grid-gap:1em;
+}
+.sport-name{
+    border-radius: 5px;
+    padding: 1.5em;
+    background-color: rgba(157, 158, 152 ,50%);
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.sport-symbol{
+    width: 100px;
+    height: 100px;
 }
