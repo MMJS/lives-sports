@@ -1,9 +1,9 @@
 # MMJS
 
 
-##Live Scoring System
+## Live Scoring System
 
-###Team Members
+### Team Members
 - Saira
 - Manpreet
 - Manal
