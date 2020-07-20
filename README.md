@@ -6,5 +6,5 @@
 ### Team Members
 - Saira
 - Manpreet
-- Manal
+- Manal 
 - Janusha
