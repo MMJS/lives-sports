@@ -44,10 +44,13 @@
     margin-bottom: 1em;
     text-align: center;
 }
+.sport-name:hover{
+    background-color: rgba(245, 115, 115,50%);
+}
 .sport-symbol{
     width: 100px;
     height: 100px;
-}
+}   
 
 
 .about-sports{
