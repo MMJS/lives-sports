@@ -33,7 +33,7 @@
 .live-card-container{
     display: grid;
     grid-template-columns: 20% 70%;
-    margin: auto 2em;
+    padding: 2em;
     grid-gap:1em;
     width: 100%;
 }
