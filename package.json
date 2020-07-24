@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/MMJS/lives-sports#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {}
 }

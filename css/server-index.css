@@ -1,0 +1,11 @@
+.team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:2em;
+}
+input{
+    margin: 1em;
+}
+button{
+margin-left:3em;
+}
