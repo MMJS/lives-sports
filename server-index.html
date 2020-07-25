@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Live Scores</title>
+		<meta name="author" content="Organistaion">
+		<meta name="description" content="This is a website which will provide live scoring for the ongoing sports.">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/server-index.css">
+        <script src="/socket.io/socket.io.js"></script>
+	</head>
+	<body>
+	<header>
+
+	</header>
+
+	<main>
+        <section>
+            <h1>Team Details</h1>
+            <form id="teamDetails">
+                <div class="team">
+                <input type="text" placeholder="Game Name" id ="game" name="game">
+                <input type="text" placeholder="Team Name" id ="teamName" name="teamName">
+                <input type="text" placeholder="Team Detail" id="teamDetail" name="teamDetail">
+                <input type="text" placeholder="Team Name1" id ="teamName1" name="teamName1">
+                <input type="text" placeholder="Team Detail1" id="teamDetail1" name="teamDetail1">
+            </div>
+                <button type="Submit" >Submit</button>
+            </form>
+        </section>
+	</main>
+
+	<footer>
+		<section>
+			<nav>
+				<ul class="bottom-footer">
+					<li><p>&copy;2020 Company Name.All rights are reserved.</p></li>
+					<li class="bottom-list">
+						<nav>
+							<ul >
+								<li class="item-inline"><a href="#">Privacy Policy |</a> </li>
+								<li class="item-inline"><a href="#">Cookies Policy |</a></li>
+								<li class="item-inline"><a href="#">Terms and Conditions</a></li>
+							</ul>
+						</nav>
+					</li>
+				</ul>
+			</nav>
+		</section>
+	</footer>
+    
+    <script src="/js/admin.js"></script>
+
+    
+	</body>
+</html>	
