@@ -25,3 +25,12 @@ function SlideImg(){
 
 // Run function when page loads
 window.onload=SlideImg;
+
+
+const socket = io()
+
+socket.on('details' ,(a)=>{
+
+  console.log(a)
+})
+console.log("hello")
