@@ -4,7 +4,7 @@
 var i = 0; 			
 var images = [];	
 // Time Between Switch
-var time = 3000;	
+var time = 6000;	
 // Image List
 images[0] = "img/banner-image1.jpg";
 images[1] = "img/banner-image2.jpg";
