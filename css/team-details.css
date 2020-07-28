@@ -43,6 +43,7 @@ body{
 #team-banner {
     width: 60%;
      height: 70vh;
+     margin-left: 20%;
    
  }
 
@@ -56,56 +57,76 @@ body{
 }
 
 #team-item-player1 {
+    position: relative;
     background-color: white;
-    height: 1000px;
+    height: 800px;
     width: 18%;
     border: solid 2px black;
     }
 
 #player1 {
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 18%;
+   
+}
+
+.name-absolute {
+    font-size: 4em;
+    margin-top: 80%;
+    text-align: center;
 }
 
 #team-item-player2 {
     background-color: white;
-    height: 1000px;
+    height: 800px;
     width: 18%;
     border: solid 2px black;
 
 }
 #player2 {
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+
 }
 
 #team-item-player3{
     background-color: white;
-    height: 1000px;
+    height: 800px;
     width: 18%;
     border: solid 2px black;
 
 }
 #player3 {
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+    
 }
+
 
 #team-item-player4{
     background-color: white;
-    height: 1000px;
+    height: 800px;
     width: 18%;
     border: solid 2px black;
 
 }
 #player4 {
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+    
 }
 
 #team-item-player5 {
     background-color: white;
-    height: 1000px;
+    height: 800px;
     width: 18%;
     border: solid 2px black;
 
 }
 #player5 {
-    border-radius: 50%
+    border-radius: 50%;
+    position: absolute;
+  
 }
