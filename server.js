@@ -1,62 +1,26 @@
-const express  = require('express')
-const app = express()
-const PORT = process.env.PORT || 3000
-const server = app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`)
-})
-const io = require('socket.io').listen(server)
+const express = require('express');
+const path = require('path');
+const app = express();
+const port = process.env.PORT || 3000;
 
+// Static assets
+app.use(express.static(path.join(__dirname, '/dist')))
 
-
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
-})
-
-app.use(express.static('.'))
-
-const detail = (socket,data)=>{
-  io.emit('details','teamdetails')
-  socket.emit('details',{data:data})
-}
-
-io.on('connection', function (socket) 
-{
-  
-  
-  
-    socket.on('teamdetails',(teamdetails)=>{
-      console.log(teamdetails)
-    //  detail(socket,teamdetails)
-    io.emit('details',teamdetails)
-    })
-    
-
-    
-
+// Mock api request
+app.get('/api', (req, res) => {
+  res.send({
+		fake: 'data',
+		testing: 123,
+		sent: true
+	})
 })
 
+// All other requests go to index.html
+app.get('*', (req, res) => {
+	res.sendFile(path.join(__dirname, '/dist', 'index.html'))
+})
 
-//     socket.on('username', (data) =>{
-//       socket.broadcast.emit('username', data)
-//     })
-      
-//     // Listen for a "newuser" message
-//     socket.on('newuser', (data) => {
-//       // Transmit a message to everyone except the sender
-//       socket.broadcast.emit('newuser', data)
-  
-//       // The same message, sent to all users - try it!
-//       //io.emit('newuser', data)
-//       })
-       
-      
-//       // Listen for "chatmsg"
-//       //   io.emit to all user
-//       socket.on('chatmsg', (data) => {
-//           io.emit('chatmsg', data)
-//       })
-  
-  
-//   })
-  
-// // Server is running.
+// Go!
+app.listen(port, () => {
+	console.log('Test this out: http://localhost:' + port);
+})
