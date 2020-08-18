@@ -1,6 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 
+const BottomFooterUl = styled.ul`
+	display: flex;
+    padding:0em 2em;
+    background-color: #272525;
+    justify-content: space-between;
+    color: #A79D9D;
+	margin:0em;
+`
+
+const BottomInlineLi = styled.li`
+	display: inline;  
+`
+
 
 
 const Footer = ()=>{
@@ -8,7 +21,7 @@ const Footer = ()=>{
         <footer>
 		<section>
 			<nav>
-				<ul className="bottom-footer">
+				<BottomFooterUl>
 					<li className="bottom-list"><p>&copy;2020 Company Name.All rights are reserved.</p></li>
 					<li className="bottom-list">
 						<nav>
@@ -19,7 +32,7 @@ const Footer = ()=>{
 							</ul>
 						</nav>
 					</li>
-				</ul>
+				</BottomFooterUl>
 			</nav>
 		</section>
 	</footer>
