@@ -1,24 +1,30 @@
 import React from "react"
+import "css/app.css"
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
-  } from "react-router-dom"
+} from "react-router-dom"
+import Header from "components/Header"
+import Footer from "components/Footer"
+import BannerHome from "components/Banner"
+import Content from "components/Content"
 
-const App = ()=>{
-    return(
-        <Router>
-    <section >
-       
-        <h1>Header</h1>
-       
-        <h1>Footer</h1>
 
+const App = () => {
+    return (
+        <div>
         
-    </section>
-    </Router>
+            <Header/>
+            <BannerHome/>
+            <Content/>
+            <Footer/>
+        </div>
+
     )
+
+
 }
 
 export default App

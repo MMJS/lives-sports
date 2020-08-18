@@ -1,0 +1,19 @@
+/* Css For Banner Image. */
+.banner-image{
+    position: relative;
+}
+.banner-image img{
+    height: 80vh;
+    width: 100%;
+}
+.banner-heading {
+    position: absolute;
+    top: 50%;
+    width: 450px;
+    left: 5%;
+    transform: translate(0, -50%);
+    border-radius: 5px;
+    /* border: 1px red; */
+    background: rgba(254,254,255,0.75);
+    padding: 0.5em 1.5em;
+}
