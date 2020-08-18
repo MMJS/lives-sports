@@ -12,6 +12,7 @@ import NewsGrid from "components/NewsGrid"
 import NewsPage from "components/NewsPage"
 import MainPage from "components/MainPage"
 import Banner from "components/Banner"
+import ScoreCard from "components/ScoreCard"
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
                     <Route path="/NewsPage" component={NewsPage} />
                     <Route path="/NewsGrid" component={NewsGrid} />
                 </Switch>
+                <ScoreCard team1="Man United" team2="Norwich City" game="FOOTBALL" />   
                 <Footer/>
             </div>
         </Router>
