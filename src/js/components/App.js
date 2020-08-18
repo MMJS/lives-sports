@@ -8,18 +8,22 @@ import {
 } from "react-router-dom"
 import Header from "components/Header"
 import Footer from "components/Footer"
-import MainPage from "components/MainPage"
+import NewsGrid from "components/NewsGrid"
+import NewsPage from "components/NewsPage"
 
 
 const App = () => {
     return (
         <Router>
+               <Header />
             <div>
             <Switch >
-                <Router path ="/about" component = {App}/>
+                <Route exact path ="/" component = {App}/>
+                <Route path ="/NewsPage" component = {NewsPage}/>
+                <Route path ="/NewsGrid" component = {NewsGrid}/>
             </Switch>
-                <Header />
-                <MainPage/>
+             
+       
                 <Footer />
             </div>
             
