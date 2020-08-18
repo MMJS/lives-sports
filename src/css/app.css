@@ -1,0 +1,30 @@
+/* Header Css */
+/* .main-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 2em;
+} */
+
+/* .links{
+    display: flex;
+} */
+
+/* .item{
+    padding: 0em 1em;
+} */
+/* Footer Css */
+.bottom-footer{
+    display: flex;
+    padding:0em 2em;
+    background-color: #272525;
+    justify-content: space-between;
+    color: #A79D9D;
+    margin:0em;
+}
+.item-inline{
+    display: inline;  
+   
+}
+.bottom-list{
+    padding:1em;
+}
