@@ -8,13 +8,7 @@
     width:50%;
     text-align: center;
 }
-.live-card-container{
-    display: grid;
-    grid-template-columns: 20% 70%;
-    padding: 2em;
-    grid-gap:1em;
-    width: 100%;
-}
+
 .sport-name{
     border-radius: 5px;
     padding: 1.5em;

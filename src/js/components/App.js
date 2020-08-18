@@ -9,17 +9,21 @@ import {
 import Header from "components/Header"
 import Footer from "components/Footer"
 import MainPage from "components/MainPage"
+import Banner from "components/Banner"
 
 
 const App = () => {
     return (
         <Router>
             <div>
+            <Header />
+            <MainPage/>
             <Switch >
-                <Router path ="/about" component = {App}/>
+                <Route path ="/about" component = {Banner}/>
+              
             </Switch>
-                <Header />
-                <MainPage/>
+                
+                
                 <Footer />
             </div>
             
