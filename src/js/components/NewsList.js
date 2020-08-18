@@ -17,7 +17,7 @@ const NewsList = () => {
 
                     <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -26,7 +26,7 @@ const NewsList = () => {
                        </div>
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -35,7 +35,7 @@ const NewsList = () => {
                        </div>
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -44,7 +44,7 @@ const NewsList = () => {
                        </div>
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -53,7 +53,7 @@ const NewsList = () => {
                        </div>
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -62,17 +62,7 @@ const NewsList = () => {
                        </div>
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
-                        </div>
-                        <div class="newstitle">
-                           Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
-                        </div>   
-   
-                       </div>
-
-                       <div class="newscard">
-                        <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -82,7 +72,17 @@ const NewsList = () => {
 
                        <div class="newscard">
                         <div class="newsimg">
-                        <a href="#"><img src={sugimg} /></a> 
+                        <a href="NewsPage"><img src={sugimg} /></a> 
+                        </div>
+                        <div class="newstitle">
+                           Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
+                        </div>   
+   
+                       </div>
+
+                       <div class="newscard">
+                        <div class="newsimg">
+                        <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
