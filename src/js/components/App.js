@@ -18,19 +18,15 @@ import Banner from "components/Banner"
 const App = () => {
     return (
         <Router>
-            <Header />
             <div>
-                <Header />
-                <MainPage />
+                <Header/>
                 <Switch >
-
-                    <Route exact path="/" component={App} />
+                    <Route exact path="/" component={MainPage} />
                     <Route path="/NewsPage" component={NewsPage} />
                     <Route path="/NewsGrid" component={NewsGrid} />
                 </Switch>
                 <Footer/>
             </div>
-
         </Router>
 
     )
