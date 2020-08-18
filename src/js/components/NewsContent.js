@@ -19,7 +19,7 @@ const NewsContent = () => {
 
                 <div class="newscard">
                  <div class="newsimg">
-                 <a href="newslist.html"><img src={sugimg}/></a> 
+                 <a href="NewsList"><img src={sugimg}/></a> 
                  </div>
                  <div class="newstitle">
                     Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -28,7 +28,7 @@ const NewsContent = () => {
                 </div>
                 <div class="newscard">
                     <div class="newsimg">
-                    <a href="#"><img src={sugimg}/></a> 
+                    <a href="NewsList#"><img src={sugimg}/></a> 
                     </div>
                     <div class="newstitle">
                        Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
@@ -37,7 +37,7 @@ const NewsContent = () => {
                    </div>
                    <div class="newscard">
                     <div class="newsimg">
-                    <a href="#"><img src={sugimg}/></a> 
+                    <a href="NewsList#"><img src={sugimg}/></a> 
                     </div>
                     <div class="newstitle">
                        Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
