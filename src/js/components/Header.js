@@ -20,7 +20,7 @@ const Header=()=>{
             <MainnavUl>
                 <li><h1>Logo</h1></li>
                 <LinksLi>
-                    <ItemLi><h3>About</h3></ItemLi>
+                   <ItemLi><h3>About</h3></ItemLi>
                     <ItemLi><h3>ScoreCard</h3></ItemLi>
                     <ItemLi><h3>NewsFeed</h3></ItemLi>
                     <ItemLi><h3>Team Details</h3></ItemLi>
