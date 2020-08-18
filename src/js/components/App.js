@@ -8,19 +8,22 @@ import {
 } from "react-router-dom"
 import Header from "components/Header"
 import Footer from "components/Footer"
-import BannerHome from "components/Banner"
-import Content from "components/Content"
+import MainPage from "components/MainPage"
 
 
 const App = () => {
     return (
-        <div>
-        
-            <Header/>
-            <BannerHome/>
-            <Content/>
-            <Footer/>
-        </div>
+        <Router>
+            <div>
+            <Switch >
+                <Router path ="/about" component = {App}/>
+            </Switch>
+                <Header />
+                <MainPage/>
+                <Footer />
+            </div>
+            
+        </Router>
 
     )
 
