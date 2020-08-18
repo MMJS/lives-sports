@@ -1,26 +1,35 @@
 {
-  "name": "lives-sports",
+  "name": "live-sports-react-setup",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MMJS/lives-sports.git"
-  },
-  "keywords": [],
+  "description": "Converting the original file into to react.",
+  "main": "index.js",
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MMJS/lives-sports/issues"
-  },
-  "homepage": "https://github.com/MMJS/lives-sports#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^2.3.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.0.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack-dev-server --open --mode development --history-api-fallback",
+    "express": "webpack --mode development && node server.js",
+    "build": "webpack --mode production"
+  }
 }
