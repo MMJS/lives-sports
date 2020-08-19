@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    background-color: rgb(5, 4, 7);
+}
+ 
+.logo img{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 10px;
+    height: 200px;
+}
+
+
+.top-nav {
+    width: auto;
+    background-color: rgb(189, 199, 49);
+    overflow: hidden;
+    height: 300px;
+}
+
+
+.top-nav a {
+       padding: 20px 15px;
+       display: inline;
+       text-decoration: none;
+   }
+ 
+.top-list {
+    padding: 0;
+    margin: 0 0 0 150px;
+  } 
+
+ .list-item{
+    float: right;
+    font-size: 3em;
+    margin-right: 90px;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: x-large;
+}
+/* Style for header ends here */
+
+   /* Style for hero banner */
+
+
+#team-banner {
+    width: 60%;
+     height: 70vh;
+     margin-left: 20%;
+   
+ }
+
+ /* Style for main content */
+ 
+ .main-flex{
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+     background-color: rgb(189, 199, 49);
+     flex-direction: row;
+     height: 1050px;   
+ }
+
+ .player {
+     background-color: cornsilk;
+     height: 700px;
+     width:22%;
+     margin-top: 150px;
+     border: 3px solid black;
+    
+ }
+
+ .img-player {
+     border-radius: 50%;
+     height: 250px;
+     width: 300px;
+     align-content: center;
+     margin-top: 80px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
+
+
+ .player-name{
+     margin-top: 30px;
+     text-align: center;
+     font-size: 1.5em;
+ }
+
+ p{
+     text-align: center;
+     margin-top: 40px;
+ }
+
