@@ -1,6 +1,9 @@
 {
   "name": "live-sports-react-setup",
   "version": "1.0.0",
+    "engines": {
+    "npm": "6.x"
+  }
   "description": "Converting the original file into to react.",
   "main": "index.js",
   "author": "",
