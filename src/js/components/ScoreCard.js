@@ -13,10 +13,10 @@ function ScoreCard(props) {
           alt="banner"
           className="scoreBanner"
         />
-        <div class="centered">{props.game}</div>
+        <div className="centered">{props.game}</div>
       </div>
       <div className="below">
-        <div class="box">
+        <div className="box">
           <div className="left">
             <div
               className="leftbox"
@@ -49,7 +49,7 @@ function ScoreCard(props) {
         </div>
         <div className="label1">
           <br />
-          <i class="fa fa-futbol-o"></i>&nbsp;
+          <i className="fa fa-futbol-o"></i>&nbsp;
           <label className="teamWin">{props.team1} Won This Match</label>
           <br />
           <br />

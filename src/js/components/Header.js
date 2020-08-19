@@ -1,4 +1,5 @@
 import React from "react"
+import {Link } from "react-router-dom"
 import styled from "styled-components"
 
 const MainnavUl = styled.ul`
@@ -20,9 +21,9 @@ const Header=()=>{
             <MainnavUl>
                 <li><h1>Logo</h1></li>
                 <LinksLi>
-                   <ItemLi><h3>About</h3></ItemLi>
-                    <ItemLi><h3>ScoreCard</h3></ItemLi>
-                    <ItemLi><h3>NewsFeed</h3></ItemLi>
+                   <ItemLi> <Link to ="/"><h3>About</h3></Link></ItemLi>
+                    <ItemLi><Link to ="/ScoreCard"><h3>ScoreCard</h3> </Link> </ItemLi>
+                    <ItemLi><Link to ="/NewsGrid"><h3>NewsFeed</h3></Link></ItemLi>
                     <ItemLi><h3>Team Details</h3></ItemLi>
                 </LinksLi>
             </MainnavUl>
