@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import "css/news.css"
 import sugimg from "img/bluejays.jpg"
 const NewsList = () => {
@@ -15,15 +16,16 @@ const NewsList = () => {
 
                 <div class="newsgrid">
 
-                    <div class="newscard">
+                   <Link to ="/NewsPage"><div class="newscard">
                         <div class="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
                         <div class="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
-   
+                        
                        </div>
+                       </Link> 
                        <div class="newscard">
                         <div class="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
