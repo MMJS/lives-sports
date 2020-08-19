@@ -1,6 +1,6 @@
 const express  = require('express')
 const app = express()
-const PORT = process.env.PORT || 3000
+const PORT = 3010
 const server = app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`)
 })
@@ -14,25 +14,18 @@ app.get('/', (req, res) => {
 
 app.use(express.static('.'))
 
-const detail = (socket,data)=>{
-  io.emit('details','teamdetails')
-  socket.emit('details',{data:data})
-}
+// const detail = (socket,data)=>{
+//   io.emit('details','teamdetails')
+//   socket.emit('details',{data:data})
+// }
 
 io.on('connection', function (socket) 
 {
-  
-  
-  
     socket.on('teamdetails',(teamdetails)=>{
-      console.log(teamdetails)
+    console.log(teamdetails)
     //  detail(socket,teamdetails)
     io.emit('details',teamdetails)
     })
-    
-
-    
-
 })
 
 

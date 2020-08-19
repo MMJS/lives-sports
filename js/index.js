@@ -29,8 +29,15 @@ window.onload=SlideImg;
 
 const socket = io()
 
-socket.on('details' ,(a)=>{
-
-  console.log(a)
+socket.on('details' ,(teamdetails)=>{
+  
+  document.getElementById("game").innerHTML=teamdetails[0].game
+  document.getElementById("team1").innerHTML=teamdetails[0].teamName
+  document.getElementById("team2").innerHTML=teamdetails[0].teamName1
+ 
 })
-console.log("hello")
+
+
+
+
+console.log(document.getElementById("game"))
