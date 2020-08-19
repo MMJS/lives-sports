@@ -6,97 +6,97 @@ const NewsList = () => {
     return (
         <section>
    
-            <div class="banner-heading">
+            <div className="banner-heading">
                 <h1>News and Updates</h1>
                 <h3>All the latest news and updates. </h3>
 				</div>
 		
 	
-			<article class="playing-match">
+			<article className="playing-match">
 
-                <div class="newsgrid">
+                <div className="newsgrid">
 
-                   <Link to ="/NewsPage"><div class="newscard">
-                        <div class="newsimg">
+                   <Link to ="/NewsPage"><div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
                         
                        </div>
                        </Link> 
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
-                           Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
-                        </div>   
-   
-                       </div>
-
-                       <div class="newscard">
-                        <div class="newsimg">
-                        <a href="NewsPage"><img src={sugimg} /></a> 
-                        </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
 
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
                        </div>
 
-                       <div class="newscard">
-                        <div class="newsimg">
+                       <div className="newscard">
+                        <div className="newsimg">
                         <a href="NewsPage"><img src={sugimg} /></a> 
                         </div>
-                        <div class="newstitle">
+                        <div className="newstitle">
+                           Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
+                        </div>   
+   
+                       </div>
+
+                       <div className="newscard">
+                        <div className="newsimg">
+                        <a href="NewsPage"><img src={sugimg} /></a> 
+                        </div>
+                        <div className="newstitle">
                            Toronto Blue Jays to play home games in Buffalo during 2020 MLB season
                         </div>   
    
