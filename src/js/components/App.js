@@ -10,7 +10,7 @@ import NewsPage from "components/NewsPage"
 import MainPage from "components/MainPage"
 import Banner from "components/Banner"
 import ScoreCard from "components/ScoreCard"
-import TeamDetails from "components/teamDetails"
+import TeamDetails from "components/TeamDetails"
 
 
 const App = () => {
