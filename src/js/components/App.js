@@ -1,11 +1,8 @@
 import React from "react"
+import {Switch , Route} from "react-router"
 import "css/app.css"
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom"
+    BrowserRouter as Router} from "react-router-dom"
 import Header from "components/Header"
 import Footer from "components/Footer"
 import NewsGrid from "components/NewsGrid"
@@ -21,15 +18,18 @@ const App = () => {
         <Router>
             <div>
                 <Header/>
-                <Switch >
+                <Switch>
+                    
+                    <Route exact path="/NewsPage" component={NewsPage} />
+                    <Route exact path="/NewsGrid" component={NewsGrid} />
+                    <Route exact path="/ScoreCard" render={(props)=> <ScoreCard {...props}team1="Man United" team2="Norwich City" game="FOOTBALL" /> }/>
                     <Route exact path="/" component={MainPage} />
-                    <Route path="/NewsPage" component={NewsPage} />
-                    <Route path="/NewsGrid" component={NewsGrid} />
-                    <Route path ="/TeamDetails" component={TeamDetails}/>
+                      <Route path ="/TeamDetails" component={TeamDetails}/>
+
                 </Switch>
-                <ScoreCard team1="Man United" team2="Norwich City" game="FOOTBALL" />   
                 <Footer/>
             </div>
+     
         </Router>
 
     )

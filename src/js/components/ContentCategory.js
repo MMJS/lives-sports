@@ -1,37 +1,42 @@
 import React from "react"
 import styled from "styled-components"
+import bestimg from "img/best.png"
+import football from "img/football.png"
+import basketball from "img/basketball.png"
+import volleyball from "img/volleyball.png"
+import badminton from "img/badminton.png"
 
 const ContentCategory = ()=>{
     return(
-        <div class="sports">
-                        <div class="sport-name">
+        <div className="sports">
+                        <div className="sport-name">
                             <a href="">
                                 <h3>All Sports</h3>
-                                <img src="img/best.png" class="sport-symbol" />
+                                <img src={bestimg} className="sport-symbol" />
                             </a>
                         </div>
-                        <div class="sport-name">
+                        <div className="sport-name">
                             <a href="">
                                 <h3>Football</h3>
-                                <img src="img/football.png" class="sport-symbol" />
+                                <img src={football} className="sport-symbol" />
                             </a>
                         </div>
-                        <div class="sport-name">
+                        <div className="sport-name">
                             <a href="">
                                 <h3>Badminton</h3>
-                                <img src="img/badminton.png" class="sport-symbol" />
+                                <img src={badminton} className="sport-symbol" />
                             </a>
                         </div>
-                        <div class="sport-name">
+                        <div className="sport-name">
                             <a href="">
                                 <h3>Volleyball</h3>
-                                <img src="img/volleyball.png" class="sport-symbol" />
+                                <img src={volleyball} className="sport-symbol" />
                             </a>
                         </div>
-                        <div class="sport-name">
+                        <div className="sport-name">
                             <a href="">
                                 <h3>Basketball</h3>
-                                <img src="img/basketball.png" class="sport-symbol" />
+                                <img src={basketball} className="sport-symbol" />
                             </a>
                         </div>
                     </div>
