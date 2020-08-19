@@ -24,7 +24,7 @@ const Header=()=>{
                    <ItemLi> <Link to ="/"><h3>About</h3></Link></ItemLi>
                     <ItemLi><Link to ="/ScoreCard"><h3>ScoreCard</h3> </Link> </ItemLi>
                     <ItemLi><Link to ="/NewsGrid"><h3>NewsFeed</h3></Link></ItemLi>
-                    <ItemLi><h3>Team Details</h3></ItemLi>
+                    <ItemLi><Link to="/TeamDetails"><h3>Team Details</h3></Link></ItemLi>
                 </LinksLi>
             </MainnavUl>
         </nav>

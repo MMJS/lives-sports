@@ -24,7 +24,7 @@ const App = () => {
                     <Route exact path="/NewsGrid" component={NewsGrid} />
                     <Route exact path="/ScoreCard" render={(props)=> <ScoreCard {...props}team1="Man United" team2="Norwich City" game="FOOTBALL" /> }/>
                     <Route exact path="/" component={MainPage} />
-                      <Route path ="/TeamDetails" component={TeamDetails}/>
+                    <Route path ="/TeamDetails" component={TeamDetails}/>
 
                 </Switch>
                 <Footer/>
