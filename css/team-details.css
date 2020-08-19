@@ -5,14 +5,15 @@ body{
  
 .logo img{
     position: absolute;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 10px;
     height: 200px;
 }
 
+
 .top-nav {
     width: auto;
-    background-color: rgb(243, 237, 245);
+    background-color: rgb(189, 199, 49);
     overflow: hidden;
     height: 300px;
 }
@@ -35,9 +36,14 @@ body{
     margin-right: 90px;
     color: black;
 }
+
+h2 {
+    color: black;
+    font-size: x-large;
+}
 /* Style for header ends here */
 
-   /* Style for main content */
+   /* Style for hero banner */
 
 
 #team-banner {
@@ -47,86 +53,46 @@ body{
    
  }
 
-
-.main-flex-box {
+ /* Style for main content */
+ 
+ .main-flex{
     display: flex;
-    margin-top: 0px;
-    height: 1500px;
-    background-color: blueviolet;
-    justify-content: space-evenly;
-}
+    padding: 1em;
+    justify-content: space-around;
+     background-color: rgb(189, 199, 49);
+     flex-direction: row;
+     height: 1050px;   
+ }
 
-#team-item-player1 {
-    position: relative;
-    background-color: white;
-    height: 800px;
-    width: 18%;
-    border: solid 2px black;
-    }
-
-#player1 {
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 18%;
-   
-}
-
-.name-absolute {
-    font-size: 4em;
-    margin-top: 80%;
-    text-align: center;
-}
-
-#team-item-player2 {
-    background-color: white;
-    height: 800px;
-    width: 18%;
-    border: solid 2px black;
-
-}
-#player2 {
-    border-radius: 50%;
-    position: absolute;
-
-}
-
-#team-item-player3{
-    background-color: white;
-    height: 800px;
-    width: 18%;
-    border: solid 2px black;
-
-}
-#player3 {
-    border-radius: 50%;
-    position: absolute;
+ .player {
+     background-color: cornsilk;
+     height: 700px;
+     width:22%;
+     margin-top: 150px;
+     border: 3px solid black;
     
-}
+ }
+
+ .img-player {
+     border-radius: 50%;
+     height: 250px;
+     width: 300px;
+     align-content: center;
+     margin-top: 80px;
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+ }
 
 
-#team-item-player4{
-    background-color: white;
-    height: 800px;
-    width: 18%;
-    border: solid 2px black;
+ .player-name{
+     margin-top: 30px;
+     text-align: center;
+     font-size: 1.5em;
+ }
 
-}
-#player4 {
-    border-radius: 50%;
-    position: absolute;
-    
-}
+ p{
+     text-align: center;
+     margin-top: 40px;
+ }
 
-#team-item-player5 {
-    background-color: white;
-    height: 800px;
-    width: 18%;
-    border: solid 2px black;
-
-}
-#player5 {
-    border-radius: 50%;
-    position: absolute;
-  
-}
